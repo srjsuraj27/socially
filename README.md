@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Socially
 
-## Getting Started
+Developed a modern, responsive social networking platform that allows users to create accounts, share image-based posts with descriptions, and interact with others through likes and comments.
 
-First, run the development server:
+- Implemented secure user authentication and session management using Clerk.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Built clean, accessible UI components with Shadcn/UI and Tailwind CSS.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Designed a PostgreSQL database schema and integrated with Prisma ORM for efficient data handling.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Enabled real-time post interactions, including liking, commenting, and viewing user-generated content.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Focused on clean code architecture, scalable backend, and a user-friendly frontend experience
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Tech Stack:
+- Nextjs
+- Clerk: For user authentication
+- Shadcn/UI
+- PostgreSQL + Prisma
